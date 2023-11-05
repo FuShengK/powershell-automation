@@ -21,11 +21,11 @@ Before you dive into the repository and start using the scripts, please ensure t
 
 ### Prerequisites
 
-- PowerShell
-- Git (for cloning the repository)
-- Firebase CLI (for some static websites deployment)
-- Terraform (for IaC configuration)
-- Heroku CLI (for some backend or frontend developments)
+- PowerShell (For main execution)               - The main power to execute the script
+- Git (For git commands usages)                 - Used to interact with remote repositories
+- Firebase CLI (For Firebase commands usages)   - Used to configure firebase settings and deploy application
+- Terraform (For Terraform commands usages)     - Used to automating deploy process, will work with cloud platforms (AWS, Azure, GCP)
+- Heroku CLI (For heroku commands usages)       - Used to interact with remote Heroku repositories and deploy local applicatian
 
 ### Installation
 
@@ -46,6 +46,8 @@ Replace `script-name.ps1` with the actual script file you wish to run.
 ## Available Scripts
 
 Here's a list of the available scripts and a brief description for each:
+
+- `combination.ps1` - An interesting script will mock some command menu UI, users will be provided local scripts (currently only ps1 files) to pick and execute them in order.
 
 - `deploy_gcp_tf.ps1` - Automates the deployment of GCP infrastructure using Terraform, streamlining the creation and management of cloud resources with infrastructure as code.
 
