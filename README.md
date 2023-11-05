@@ -9,9 +9,6 @@ Welcome to the PowerShell Automation Scripts Collection - a repository of PowerS
   - [Installation](#installation)
 - [Usage](#usage)
 - [Available Scripts](#available-scripts)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
 ## About the Repository
